@@ -1,0 +1,29 @@
+{
+  "@metadata": {
+    "authors": [
+      "Momo Adrien Nickson"
+    ],
+    "last-updated": "2016-10-25",
+    "locale": "en"
+  },
+  "app-title": "Example Application",
+  "welcome": "Welcome, $1!",
+  "letter": "A letter from $1! {{GENDER:$2|He|She}} says:",
+  "letters": "You have $1 {{PLURAL:$1|letter|letters}}",
+  "copyright": "{{SITENAME}}. All rights reserved.",
+  "about": "{{link:(About {{SITENAME}})|localhost/about?locale=en}}",
+
+  "About": "About",
+  "Experience": "Experience",
+  "Education": "Education",
+  "Skills": "Skills",
+  "Interests": "Interests",
+  "Awards": "Awards",
+
+  "the_core_of_my_competence_is": "The core of my competence is",
+  "full_stack_web_developer": "full stack web developer",
+  "i_have_four_years_of_professional_experience": "I have four years of professional experience. During which in addition to improving my technical skills, I was able to develop other skills such as teamwork and project management.",
+  "currently_in_retraining": "Currently in retraining, I am doing a dual MBA in <strong>IT and Management</strong> with <strong>Big Data</strong> option at <a href='https://www.ionis-stm.com/' target='_blank'>IONIS-STM</a>.",
+
+  "itrade_description": "Development of a platform allowing an importer / exporter to submit an import / export file, obtain a quotation, make payment of service fees and monitor the progress of the file until delivery."
+}

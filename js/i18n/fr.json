@@ -1,0 +1,29 @@
+{
+  "@metadata": {
+    "authors": [
+      "Momo Adrien Nickson"
+    ],
+    "last-updated": "2016-10-25",
+    "locale": "fr"
+  },
+  "app-title": "Тестовое приложение",
+  "welcome": "Добро пожаловать, $1!",
+  "letter": "Письмо от $1! {{GENDER:$2|Он|Она}} говорит:",
+  "letters": "У вас $1 {{PLURAL:$1|письмо|писем|письма}}",
+  "copyright": "{{SITENAME}}. All rights reserved.",
+  "about": "{{link:{{SITENAME}}|localhost/about?locale=ru}}",
+
+  "About": "À propos de moi",
+  "Experience": "Expérience",
+  "Education": "Éducation",
+  "Skills": "Compétences",
+  "Interests": "Intérêts",
+  "Awards": "Attributions",
+
+  "the_core_of_my_competence_is": "Le coeur de ma compétence c'est",
+  "full_stack_web_developer": "full stack web developer",
+  "i_have_four_years_of_professional_experience": "J'ai quatre années d'expérience professionnelle au cours desquelles en plus d'améliorer mes compétences techniques, j'ai pu développer d'autres compétences telles que le travail en équipe et la gestion de projet.",
+  "currently_in_retraining": "Actuellement en reconversion professionnelle, je fais un MBA double compétences <strong>Informatique et Management</strong> option <strong>Big Data</strong> à <a href='https://www.ionis-stm.com/' target='_blank'>IONIS-STM</a>.",
+
+  "itrade_description": "Développement d'une plateforme permettant à un importateur/exportateur de soumettre un dossier d'import/export, Obtenir une cotation, effectuer le paiement des frais de service et de suivre l'avancement du dossier jusqu’à la livraison."
+}

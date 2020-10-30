@@ -43,12 +43,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger translate" data-args="About" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger translate" data-args="Experience" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger translate" data-args="Education" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger translate" data-args="Skills" href="#skills">Skills</a></li>
+                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger translate" data-args="Interests"  href="#interests">Interests</a></li> -->
+                <li class="nav-item"><a class="nav-link js-scroll-trigger translate" data-args="Awards" href="#awards">Awards</a></li>
             </ul>
         </div>
     </nav>
@@ -63,14 +63,30 @@
         <!-- About-->
         <section class="resume-section" id="about">
             <div class="resume-section-content">
+  <ul class="switch-locale list-inline">
+    <li class="list-inline-item">
+        <div class="row">
+            <div class="col">
+                <a href="#" data-locale="en" style="line-height: 0%;"><img src="assets/img/en.png" alt="en"></a>
+            </div>
+            <div class="col">
+                <a href="#" data-locale="fr" style="min-height: 11px;"><img src="assets/img/fr.png" alt="fr"></a>
+            </div>
+        </div>
+    </li>
+  </ul>
                 <h1 class="mb-0">MOMO <span class="text-primary">Adrien Nickson</span></h1>
-                <div class="subheading mb-5">Logbessou · DOUALA · <a href="https://wa.me/237695287510"><i
+                <div class="subheading mb-5"> Île-de-France · <a href="https://wa.me/237695287510"><i
                             class="fab fa-whatsapp"></i> (00237) 695-287-510</a> · <a
                         href="mailto:madriennickson@gmail.com"><i class="far fa-envelope"></i>
                         madriennickson@gmail.com</a></div>
-                <p class="lead mb-5">The core of my competence is <strong>full stack web developer</strong>.<br>
-                    I have four years of professional experience. During which in addition to improving my technical
-                    skills, I was able to develop other skills such as teamwork and project management.</p>
+
+                    <p class="lead mb-5"> 
+                        <span class="translate" data-args="the_core_of_my_competence_is">The core of my competence is</span>
+                        <strong  class="translate" data-args="full_stack_web_developer">full stack web developer</strong>.<br>
+                        <span class="translate" data-args="i_have_four_years_of_professional_experience">I have four years of professional experience. During which in addition to improving my technical skills, I was able to develop other skills such as teamwork and project management.</span><br>
+                        <span class="translate" data-args="currently_in_retraining"></span>
+                    </p>
                 <div class="social-icons">
                     <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/adrien-nickson-momo/"><i
                             class="fab fa-linkedin-in"></i></a>
@@ -92,7 +108,7 @@
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Javascript / Typescript Developer</h3>
                         <div class="subheading mb-3">itrade.digital (Cameroon)</div>
-                        <p>Platform allowing an importer/exporter to submit an import/export file, make the payment and
+                        <p  class="translate" data-args="itrade_description"> Platform allowing an importer/exporter to submit an import/export file, make the payment and
                             follow the progress of the file.</p>
                         <ul class="list-inline">
                             <li class="list-inline-item"><span
@@ -109,12 +125,12 @@
                                     class="badge badge-pill badge-secondary">amCharts</span></i></li>
                         </ul>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">January 2020 - Present</span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">January 2020 - July 2020</span></div>
                 </div>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Owner</h3>
-                        <div class="subheading mb-3"> <a href="https://ekwali.online" target="_blank">EKWALI</a> </div>
+                        <div class="subheading mb-3"> <a href="https://ekwali.online" target="_blank">EKWALI (Cameroon)</a> </div>
                         <p>Company that supports small and medium-sized businesses in their digitalization process.</p>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">June 2019 - Present</span></div>
@@ -310,6 +326,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <!-- i18n-->
+    <script src="js/lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.language.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.parser.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="js/lib/history/jquery.history.js"></script>
+    <script src="js/lib/url/url.min.js"></script>
+  
+    <script src="js/global.js"></script>
+  
 </body>
 
 </html>
