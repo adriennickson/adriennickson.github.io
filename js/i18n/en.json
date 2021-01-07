@@ -27,6 +27,7 @@
 
   "itrade_description": "Development of a platform allowing an importer / exporter to submit an import / export file, obtain a quotation, make payment of service fees and monitor the progress of the file until delivery.",
   "ekwali_description": "Company that supports small and medium-sized businesses in their digitalization process.",
+  "lezin_description": "Platform for supporting users in their travel plans.",
   "nbo_description": "Development of new features for a CMS / CRM for real estate agent/company.<br><br><ul><li>Use facebook webhook to retrieve and store in a log database all events that occur on customers' facebook pages. And perform treatments according to the event.</li><li>Module allowing the administrator of a client's website to buy a campaign pack (Including any choice: Facebook, Instagram, Google Ads, Bing Ads)</li><li>Dashboard on which the webmaster of the customer site can have a user activity report. Data from Google Analytics and from the local database.</li></ul>",
   "jebuy_description": "Development of an e-commerce website.<br><br><ul><li>Development of front office and back office of the website.</li><li>Establishment of a REST API to provide the site data according to the level of access rights of the client.</li><li>Android application requesting the API and offering the user the same features available on the front office of the website and many others.</li></ul>",
   "innovatech_description": "Development of web application for conference management.",
